@@ -1,4 +1,5 @@
-// Aula 04 - JS Basics 04 - import / export módulos
+/*
+// Aula 04a - JS Basics 04 - import / export módulos
 import React from 'react' // maneira existente para trazer o react para ess arquivo
 
 const Header = () => <h1>Olá 0</h1>
@@ -7,5 +8,18 @@ export const Header1 = () => <h1>Olá 1</h1> // maneira 2 de tornar disponível 
 
 export const Header2 = () => <h1>Olá 2</h1> // posso exportar mais de um 
 
-export default Header // maneira de tornar disponível esse arquivo para os outros
+//export default Header // maneira de tornar disponível esse arquivo para os outros
 
+export default Header
+*/
+
+// Aula 04b - JS Basics 04 - import / export módulos
+import React from 'react' // maneira existente para trazer o react para ess arquivo
+
+export const Header = () => <h1>Olá 0</h1>
+
+export const Header1 = () => <h1>Olá 1</h1> // posso exportar mais de um 
+
+export const Header2 = () => <h1>Olá 2</h1> // posso exportar mais de um 
+
+export default { Header, Header1, Header2 }

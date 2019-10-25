@@ -224,3 +224,9 @@ console.log(i1, i2)
 // ****************** FIM  5   **********************
 */
 
+// Aula 04 - JS Basics 04 - import / export módulos
+
+// dentro da pasta source foi criado Header.js
+// Vamos para lá
+
+

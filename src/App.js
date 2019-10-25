@@ -56,7 +56,8 @@ const App = () => {
 // Fim Aula 01
 */ 
 
-// Aula 04 - JS Basics 04 - import / export módulos
+/*
+// Aula 04a - JS Basics 04 - import / export módulos
 import React, { useState } from 'react';
 import Header from './Header'
 import { Header1 } from './Header'
@@ -73,5 +74,39 @@ const App = () => {
 
   )
 }
+export default App;
+*/
 
+/*
+// Aula 04b - JS Basics 04 - import / export módulos
+import React, { useState } from 'react';
+import Header from './Header'
+
+const App = () => {
+  return (
+<div>
+    <Header.Header1 />
+    <Header.Header2 />
+</div>
+
+  )
+}
+export default App;
+*/
+
+// Aula 04c - JS Basics 04 - import / export módulos
+import React, { useState } from 'react';
+import Header from './Header'
+import Table from './elements/Table/index'
+
+const App = () => {
+  return (
+<div>
+    <Header.Header1 />
+    <Header.Header2 />
+    <Table />
+</div>
+
+  )
+}
 export default App;
